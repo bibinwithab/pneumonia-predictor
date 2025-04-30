@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+*.db
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints
+
+# === FastAPI ===
+server/__pycache__/
+
+# === Node (React Frontend) ===
+client/node_modules/
+client/dist/
+client/.env
+client/.DS_Store
+
+# === OS / Editor / Misc ===
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# === Logs and Reports ===
+*.log
+logs/
+
+dataset
