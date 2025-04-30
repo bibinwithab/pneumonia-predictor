@@ -10,3 +10,4 @@ x = np.expand_dims(x, axis=0) / 255.0
 
 prediction = model.predict(x)
 print("Pneumonia" if prediction[0][0] > 0.5 else "Normal")
+print("Confidence:", prediction[0][0] * 100)
