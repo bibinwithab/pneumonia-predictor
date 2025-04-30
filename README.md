@@ -1,4 +1,4 @@
-# 🚻 Pneumonia Detection Application
+# 🩺 Pneumonia Detection Application
 
 A full-stack machine learning project that detects pneumonia from chest X-ray images using a Convolutional Neural Network (CNN). It includes:
 
@@ -88,7 +88,7 @@ Access the app at:
 
 - 🧠 TensorFlow + Keras (CNN model)
 - ⚡ FastAPI (backend)
-- 🎨 React + Vite (frontend)
+- 🎨 React + Vite with MUI and Framer Motion (frontend)
 - 📂 Pillow, python-multipart, Axios
 
 ---
