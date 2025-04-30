@@ -11,7 +11,7 @@ const Footer = () => {
       transition={{ delay: 0.5, duration: 0.5 }}
     >
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-5">
           <div>
             <h3 className="text-lg font-semibold mb-4">PneumoScan</h3>
             <p className="text-gray-400 text-sm">
@@ -26,7 +26,6 @@ const Footer = () => {
               <li><a href="#" className="hover:text-primary-400 transition-colors duration-200">Home</a></li>
               <li><a href="#about" className="hover:text-primary-400 transition-colors duration-200">About Pneumonia</a></li>
               <li><a href="#resources" className="hover:text-primary-400 transition-colors duration-200">Resources</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors duration-200">Privacy Policy</a></li>
             </ul>
           </div>
           
@@ -37,12 +36,6 @@ const Footer = () => {
               Always seek the advice of your physician or other qualified health provider with any questions.
             </p>
           </div>
-        </div>
-        
-        <div className="mt-8 pt-4 border-t border-gray-800 text-center text-sm text-gray-500">
-          <p className="flex items-center justify-center">
-            Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> in 2025
-          </p>
         </div>
       </div>
     </motion.footer>
