@@ -26,19 +26,6 @@ chest_xray/
     └── PNEUMONIA/
 ```
 
----
-
-## 🧠 Model Training (Optional)
-
-If you're training from scratch:
-
-```python
-model.fit(train_generator, validation_data=test_generator, epochs=10)
-model.save("app/model/pneumonia_model.h5")
-```
-
----
-
 ## 🚀 FastAPI Backend
 
 ### 📦 Install Requirements
@@ -52,9 +39,6 @@ pip install -r requirements.txt
 ```bash
 uvicorn app:app --reload
 ```
-
-Access the interactive docs at:  
-📍 `http://127.0.0.1:8000/docs`
 
 ---
 
