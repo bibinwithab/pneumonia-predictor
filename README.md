@@ -1,4 +1,4 @@
-# 🚻 Pneumonia Detection API
+# 🚻 Pneumonia Detection Application
 
 A full-stack machine learning project that detects pneumonia from chest X-ray images using a Convolutional Neural Network (CNN). It includes:
 
