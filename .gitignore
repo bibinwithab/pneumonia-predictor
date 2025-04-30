@@ -36,4 +36,6 @@ Thumbs.db
 *.log
 logs/
 
+models
+*.h5
 dataset
